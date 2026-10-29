@@ -20,8 +20,6 @@ It also documents which data was changed for public sharing and which parts of t
 
 The release is a representative copy of the near-final database, not a finished production deployment. It is suitable for review and demonstration, but it does not claim that every workflow, form, query, calculation, macro, or report has been re-tested in native Microsoft Access after the sanitization edit.
 
-The original USB database was left unchanged. This repository and its release attachment are separate from the personal portfolio website.
-
 ## Explore the Demo
 
 ![WaveWare main menu in Microsoft Access, with diet, inventory, weight, and reporting options.](assets/waveware-main-menu.png)
