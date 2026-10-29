@@ -4,6 +4,12 @@ Animal diet and nutrition tracking project developed around Texas State Aquarium
 
 This is a **near-final representative copy**, not the actual final submission, a current aquarium system, or animal-care guidance.
 
+## Preview
+
+![WaveWare main menu in Microsoft Access, with diet, inventory, weight, and reporting options.](assets/waveware-main-menu.png)
+
+Main-menu screenshot supplied by the project owner.
+
 ## Download
 
 [Download the editable Access database](https://github.com/Saner108/waveware-access-demo/releases/download/waveware-near-final-demo-2026-10-28/WaveWare_NearFinal_Employee_Demo.accdb)
