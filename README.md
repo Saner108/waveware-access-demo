@@ -4,6 +4,8 @@ An animal diet and nutrition tracking database developed around Texas State Aqua
 
 **This is a near-final representative demo, not the actual final submission, a current aquarium system, or animal-care guidance.**
 
+**[Read the Project Documentation & User Guide (public PDF)](docs/WaveWare-Project-Documentation-Public.pdf)** — review the design, screenshots and documented workflows without opening Microsoft Access.
+
 ## What This Is
 
 This repository provides a shareable copy of the WaveWare Access database. The downloadable `.accdb` file preserves the application's existing tables, fields, indexes, relationships, queries, forms, reports, macros, and database settings while replacing selected employee names with demo names.
@@ -30,9 +32,39 @@ The screenshot shows the application's main menu. The editable Access database i
 
 | Resource | Purpose |
 | --- | --- |
+| [Project Documentation & User Guide](docs/WaveWare-Project-Documentation-Public.pdf) | Public-safe design narrative and source-version user manual; 27 pages with linked contents and bookmarks |
 | [Access database release](https://github.com/Saner108/waveware-access-demo/releases/tag/waveware-near-final-demo-2026-10-28) | Download the `.accdb` demo and view release notes |
 | [`CHECKSUMS.sha256`](CHECKSUMS.sha256) | Verify the downloaded database file |
+| [`docs/CHECKSUMS.sha256`](docs/CHECKSUMS.sha256) | Verify the public PDF and two documentation preview images; paths are relative to the repository root |
 | [`assets/waveware-main-menu.png`](assets/waveware-main-menu.png) | Preview the main application menu |
+
+## Project Documentation & User Guide
+
+The [public PDF](docs/WaveWare-Project-Documentation-Public.pdf) adapts the supplied April 21, 2026 report for portfolio sharing. Its public-edition notes are dated October 29, 2026. It includes the project context, conceptual database design, workflow descriptions, screenshots and a user manual.
+
+| PDF pages | Contents |
+| --- | --- |
+| 2 | Public-edition scope, privacy changes and verification limits |
+| 3–5 | Corrected, clickable contents |
+| 6–11 | Executive summary, introduction and system analysis/design |
+| 12–26 | Dashboard, animal/employee records, food lots, diet forms, alerts and reports |
+| 27 | Conclusion and proposed follow-up checks |
+
+The employee first and last name visible in a screenshot were permanently replaced with the generic labels **Demo** and **Employee**. Those labels are not a record-mapping claim about the separate release database. Other project records, including animal names, dates and numeric values, remain visible; the document is not fully anonymized or synthetic.
+
+Overview, design and conclusion wording distinguishes **documented intentions from verified results**. The guide does not establish production use, measured efficiency gains, clinical accuracy or secure access controls. Its source-version screenshots and steps may differ from the near-final download. It is not official aquarium documentation or animal-care guidance. The original supplied PDF and existing Access release were not modified.
+
+### Selected guide screenshots
+
+These are static previews from the public guide, not new native Access test captures.
+
+**Employee form — screenshot name replaced with generic demo text**
+
+![WaveWare employee form with generic Demo and Employee name fields; identifier and manager role retained.](assets/waveware-employee-demo.png)
+
+**Lot records — inventory and nutritional-input interface**
+
+![WaveWare lot-record form with inventory quantities, nutritional-input fields and record navigation.](assets/waveware-lot-records.png)
 
 ## Demo Passwords
 
@@ -54,6 +86,10 @@ The file contains the preserved database objects and the publicly shareable empl
 ### Screenshot
 
 `assets/waveware-main-menu.png` is a static preview of the main menu. It is provided for repository browsing and does not replace opening the database in Access.
+
+### Project documentation
+
+`docs/WaveWare-Project-Documentation-Public.pdf` is the public portfolio edition of the supplied project report. Its linked contents, PDF bookmarks and numbered footers refer to this 27-page edition. The two additional images above preview its employee and lot-record screens. Read page 2 for version, privacy and verification limits before following any workflow.
 
 ### Checksum
 
@@ -87,3 +123,11 @@ Other aquarium records were retained unchanged with the project owner's explicit
 All 25 user tables and 69 records were compared against the source, allowing only the eight employee-name fields to change. Schema definitions and saved Access object storage were compared separately. Decoded database pages, including unused content, were scanned for the original first and last names in their original, lowercase, and uppercase forms.
 
 The file-opening password was verified, and the saved manager macro still checks `1234`. The checksum file records the SHA-256 digest for the release attachment.
+
+### Documentation publication checks — October 29, 2026
+
+- Rendered all 27 public PDF pages for visual review; checked all 31 contents links and 11 PDF bookmarks against their destination pages.
+- Reviewed the source screenshots and scanned the public embedded images, rendered pages and two preview images with local OCR. The removed employee first and last name were not found in that scan or in extracted PDF text. This is a scoped sharing check, not a guarantee of complete anonymization.
+- Removed the original name-bearing image data through PDF redaction and saved a new, non-incremental PDF with unused objects discarded. Reviewed the replacement employee fields visually.
+- Checked generic document metadata, absence of embedded attachments and JavaScript, and SHA-256 hashes for the public PDF/previews. The original supplied PDF remained byte-for-byte unchanged.
+- No database edits, release replacement, native Access workflow tests, calculation validation or live deployment were performed for this documentation update. The earlier database-artifact checks above are not new tests from this publication.
